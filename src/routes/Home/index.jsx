@@ -2,7 +2,7 @@
 export default function Home(){
 
     return(
-        <>
+        <main className="main">
             <h1>Bem-vindo ao Restaurante Sabor Divino</h1>
             <div>
                 <p>Nossa página inicial foi projetada para cativar seus sentidos e convidá-lo a explorar o mundo da culinária requintada que oferecemos.  </p>
@@ -19,6 +19,6 @@ export default function Home(){
             <div>
                 <p>Fique de olho em nossa seção de "Eventos" para descobrir noites temáticas especiais e promoções que preparamos para tornar sua visita ainda mais memorável.</p>
             </div>
-        </>
+        </main>
     )
 }

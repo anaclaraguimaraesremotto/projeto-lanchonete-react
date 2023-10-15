@@ -2,7 +2,7 @@
 export default function Pedidos(){
 
     return(
-        <>
+        <main className="main">
             <h1>Pedidos</h1>
             <form action="">
                 <div>
@@ -29,6 +29,6 @@ export default function Pedidos(){
                     <input type="button" value="Mostrar Pedidos" />
                 </div>
             </form>
-        </>
+        </main>
     )
 }

@@ -2,7 +2,7 @@
 export default function Cardapio(){
 
     return(
-        <>
+        <main className="main">
             <h1>Cardapio</h1>
             <div>
                 <table>
@@ -52,6 +52,6 @@ export default function Cardapio(){
                     </tbody>
                 </table>
             </div>
-        </>
+        </main>
     )
 }
